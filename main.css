@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Pacifico&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/clear-sky.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: "Open Sans";
+  min-height: 100vh;
+  text-align: center;
+}
+
+input {
+  background: #f2f2f2;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  color: #333;
+  font-size: 1em;
+  margin: 10px;
+  min-width: 200px;
+  padding: 10px;
+}
+
+button {
+  background: #0160ad;
+  border: 1px solid #0160ad;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 10px;
+}
+
+#btn-position {
+  opacity: 0.8;
+}
+
+button:hover {
+  border: 2px solid #0160ad;
+}
+
+h1 {
+  color: #333;
+  font-family: "Pacifico", cursive;
+  margin-bottom: 5px;
+}
+
+#weather-data.visible {
+  background: rgba(206, 217, 237, 0.4);
+  border: 1px solid rgba(206, 217, 237, 0.4);
+  border-radius: 10px;
+  box-shadow: 1px 1px 12px rgba(206, 217, 237, 0.9);
+  margin: 20px auto;
+  padding: 10px;
+  width: 300px;
+}
+.map {
+  height: 100%;
+}
+
+.bold {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.temp {
+  color: #000;
+  font-size: 3em;
+  font-weight: 400;
+  letter-spacing: -4px;
+}
